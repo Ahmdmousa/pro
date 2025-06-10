@@ -1,0 +1,25 @@
+/* Custom styles for POS page to match new theme */
+.btn {
+    @apply font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out;
+}
+.btn-primary {
+    @apply bg-[#50d22c] text-[#131712] hover:bg-green-500;
+}
+.btn-secondary {
+    @apply bg-[#2d372a] text-white hover:bg-gray-700;
+}
+.card {
+    @apply bg-[#1f251d] border border-[#42513e] rounded-lg shadow-md p-6;
+}
+.product-card {
+    @apply bg-[#1f251d] border border-[#42513e] rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300;
+}
+.modal {
+    @apply fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50;
+}
+.modal-content {
+    @apply bg-[#1f251d] border border-[#42513e] p-8 rounded-lg shadow-2xl w-full max-w-md text-white;
+}
+.hidden {
+    display: none;
+}
